@@ -1,0 +1,29 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    
+     
+}
+ header, footer{
+    background-color:aqua;
+ }
+ 
+
+ .site-title{
+    color: rgb(255, 0, 230);
+ }
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+
+
+h3{
+    list-style-type: square;
+}
+
+main ul li :nth-child(odd){
+    background-color: brown;
+}
+nav ul li {
+    background-color: rgb(5, 243, 61);
+}
