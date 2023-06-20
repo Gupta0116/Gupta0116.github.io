@@ -7,6 +7,9 @@ body{
  header, footer{
     background-color:aqua;
  }
+ article ul li:nth-child(odd){
+    background-color: blueviolet;
+ }
  
 
  .site-title{
@@ -17,13 +20,22 @@ body{
 }
 
 
-h3{
+article ul li{
     list-style-type: square;
 }
 
-main ul li :nth-child(odd){
-    background-color: brown;
-}
+
+
 nav ul li {
+    
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
     background-color: rgb(5, 243, 61);
+    border: 2px solid black ;
+}
+nav ul li a:hover{
+    background-color: black;
 }
